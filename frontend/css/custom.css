@@ -1,0 +1,29 @@
+.single-products:hover .product-overlay {
+    height: 70% !important;
+}
+
+.get-new-image {
+    background:#F5F5ED;
+    border: 0 none;
+    border-radius: 0;
+    color: #696763;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    /* margin-bottom: 25px; */
+  }
+
+.get-new-image:hover {
+    background: #FE980F;
+    border: 0 none;
+    border-radius: 0;
+    color: #FFFFFF;
+}
+
+.get-new-image i{
+	margin-right:5px;
+}
+
+.get-new-image:hover {
+    background: #FE980F;
+    color: #FFFFFF;
+}
