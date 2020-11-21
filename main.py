@@ -18,6 +18,5 @@ class Item(BaseModel):
 
 @app.post("/files/")
 async def create_file(item: Item):
-    img_url = item.imageUrl
-    img_output = "images/output_garment/"+img_url.split("/")[-1]
+    # Call inference model to get result
     return img_output
